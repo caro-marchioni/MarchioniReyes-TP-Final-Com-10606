@@ -7,22 +7,22 @@ Una clínica de salud mental necesita un sistema de gestión de turnos de pacien
 El sistema debe proporcionar los siguientes requisitos funcionales:
 
 
-##### Gestión de Turnos: 
+**Gestión de Turnos:** 
 
 Permitir a los pacientes acceder a la información de cada profesional y tener visibilidad de la disponibilidad horaria de cada uno. Para programar un turno, el paciente deberá crear su perfil. 
 
-##### Creación del perfil del paciente:
+**Creación del perfil del paciente:**
 
 La creación del perfil del paciente será requerida para la reserva del turno. En este proceso, los datos que deberá proveer los siguientes datos: Nombre, Apellido, Fecha de Nacimiento, Email, Tel. y Contacto de Emergencia. 
 
-##### Perfil de Profesional:
+**Perfil de Profesional:**
 El perfil del profesional permitirá la creación y modificación de los horarios disponibles, acceso y posibilidad de edición del perfil de pacientes.
 
 
 
 #### Interfaces de Usuario:
 
-#####  1- Interfaz de paciente:
+**1- Interfaz de paciente:**
 
 Proporcionará un menú de profesionales a seleccionar, horarios disponibles según el profesional elegido y la opción de crear el perfil de paciente para confirmar la reserva del turno
 
@@ -39,7 +39,7 @@ opción 0: salir
 
 Importante: no se mostrará ningún turno si no ingreso un nombre y/o un apellido. De esta misma manera tampoco se mostrará un turno si no ingreso un horario válido
 
-##### 2- Interfaz del profesional:
+**2- Interfaz del profesional:**
 Proporcionará un menu de los horarios disponibles segun el nombre y apellido del profesional ingresado y la opcion de editar los horarios disponibles, lo cual se verá reflejado en los horarios mostrados a los pacientes.
 
 Opcion 1: Ingrese nombre y apellido
