@@ -41,6 +41,7 @@ Importante: no se mostrará ningún turno si no ingreso un nombre y/o un apellid
 
 **2- Interfaz del profesional:**
 Proporcionará un menu de los horarios disponibles segun el nombre y apellido del profesional ingresado y la opcion de editar los horarios disponibles, lo cual se verá reflejado en los horarios mostrados a los pacientes.
+https://docs.google.com/spreadsheets/d/1ViWi6nykTvRP7BRpqg2O9yaLWeaobMv5CUa_-KxeCG4/edit#gid=406331082
 
 Opcion 1: Ingrese nombre y apellido
 
