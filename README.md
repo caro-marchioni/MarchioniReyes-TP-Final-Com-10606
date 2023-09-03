@@ -13,7 +13,7 @@ Permitir a los pacientes acceder a la información de cada profesional y tener v
 
 **Creación del perfil del paciente:**
 
-La creación del perfil del paciente será requerida para la reserva del turno. En este proceso, los datos que deberá proveer los siguientes datos: Nombre, Apellido, Fecha de Nacimiento, Email, Tel. y Contacto de Emergencia. 
+La creación del perfil del paciente será requerida para la reserva del turno. En este proceso, los datos que deberá proveer son: Nombre, Apellido, Fecha de Nacimiento, Email, Tel. y Contacto de Emergencia. 
 
 **Perfil de Profesional:**
 El perfil del profesional permitirá la creación y modificación de los horarios disponibles, acceso y posibilidad de edición del perfil de pacientes.
