@@ -1,6 +1,6 @@
 ## METODOLOGIA AGIL KANBAN
 
-La metodologia ágil seleccionada para realizar este Trabajo Practico fue KANBAN. Debido a que es un proyecto y un equipo pequeño, la dinamica que permite desarrollar la metodologia Kanban, me pertmitio sectorizar y establecer prioridaddes acerda de los primeros pasos a seguir. 
+La metodología ágil seleccionada para realizar este Trabajo Practico Final fue KANBAN. Debido a que es un proyecto y un equipo de una sola persona, la dinámica que permite desarrollar la metodología Kanban, pertmitió sectorizar y establecer prioridades de acuerdo a los primeros pasos a seguir. 
 
 *Definicion de Etapas*
 - La primer etapa fue el planteo del problema, donde se penso desde que ángulo se iniciaria la propuesta.
