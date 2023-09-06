@@ -1,15 +1,21 @@
 # Marchioni-TP-Final-Com-10606 #
 
-Una clínica de salud mental necesita un sistema de gestión de turnos de pacientes, además de una base de datos que almacene datos relevantes de los pacientes y gestión de agenda de los profesionales. 
+Una pequeña clínica de salud mental necesita un programa que gestione los turnos de pacientes. En  
 
 #### Título: Sistema de Gestión para Clínica de Salud Mental “PSIC” 
 
-El sistema debe proporcionar los siguientes requisitos funcionales:
+**LOGO**: 
 
+![PSIC logo](https://github.com/caro-marchioni/MarchioniReyes-TP-Final-Com-10606/assets/62318139/52a8daa6-b67e-43b9-83eb-49b00d9c6f11)
+
+
+-- El sistema debe proporcionar los siguientes requisitos funcionales:
 
 **Gestión de Turnos:** 
-
 Permitir a los pacientes acceder a la información de cada profesional y tener visibilidad de la disponibilidad horaria de cada uno. Para programar un turno, el paciente deberá crear su perfil. 
+
+
+Sugerencias de ampliación de programa para el futuro:
 
 **Creación del perfil del paciente:**
 
