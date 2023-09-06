@@ -14,6 +14,15 @@ La metodologia ágil seleccionada para realizar este Trabajo Practico fue KANBAN
 
 https://trello.com/b/IxQrCoov/psic-tp-final
 
-El tablero 
+El tablero utilizado refleja las etapas previamente descriptas, siguiendo asi el flujo de trabajo realizado. 
+
+1. Backlog: Acumulacion de tareas que luego seran priorizadas
+2. Diseño: De las tareas seleccionadas como prioritarias, se diseñara lo necesario teniendo en cuenta un vision de innovacion, teniendo siempre como prioridad los usuarios 
+3. Por Hacer: Esta columna contendra las tareas que han completado el proceso de diseño y estan listas para iniciar el proceso de escritura de código
+4. En Progreso: Aqui se encuentran las tareas que estan siendo efectivamente creadas con el codigo necesario 
+5. Testing: Las tareas que se encuentran en esta columna, seran las que han finalizado su desarrollo y deben ser testeadas en relacion a los requerimientos especificados 
+6. Completado: Comulna que contiene las tareas que hayan pasado por todo el proceso de diseño, desarrollo y testeo de modo exitoso
+
+
 
 
