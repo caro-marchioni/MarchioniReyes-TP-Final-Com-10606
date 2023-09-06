@@ -26,7 +26,7 @@ En ambos casos, el usuario sera redirigido al menu principal, donde podrá volve
 
 **Ejemplo seleccionando un turno para la Lic. Gabriela Sosa, el dia Lunes a las 17 hs.**
 
-El sistema proporcionará un menú de principal que muestre en modo de listado los profesionales dispoibles, además de la opcion 'Salir'.
+El sistema proporcionará un menú de principal que muestre en modo de listado los profesionales dispoibles, además de la opcion 'Salir'
 
 *Menu Principal:*
 
@@ -36,9 +36,10 @@ El sistema proporcionará un menú de principal que muestre en modo de listado l
 4. Salir
 
 
-Luego el usuario debera seleccionar un dia, de los proporcionados en la lista 'Menu Días Disponibles'. 
+Luego el usuario debera seleccionar un dia, de los proporcionados en la lista 'Menu Días Disponibles' 
 
 *Menu Días Disponibles:*
+
 Lic. G. Sosa:
 1. Lunes
 2. Martes
@@ -47,6 +48,10 @@ Lic. G. Sosa:
 5. Viernes
 6. Sábados
 
+
+Consecuentemente, debera seleccionar un horario disponible, segun el día elegido 
+
+*Menu Horarios Disponibles:*
 --- Día Lunes ---
 1. 14 a 15 hs 
 2. 15 a 16 hs
@@ -70,25 +75,15 @@ Una vez seleccionado el horario o eligiendo un horario que se encuentra 'Reserva
 4. Salir
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Sugerencias de ampliación/mejoras de programa PSIC para el futuro:
 
 **1. Creación del perfil del paciente:**
-La creación del perfil del paciente será requerida para la reserva del turno. En este proceso, los datos que deberá proveer son: Nombre, Apellido, Fecha de Nacimiento, Email, Tel. y Contacto de Emergencia. 
-Importante: no se mostrará ningún turno si no ingreso un nombre y/o un apellido. De esta misma manera tampoco se mostrará un turno si no ingreso un horario válido
-
+La creación del perfil del paciente podría ser una herramienta escencial para el profesional, dandole acceso a los datos basicos antes del encuentro y reduciendo el tiempo que se invierte en la creacion de las historias médicas en la primer entrevista. 
+Este proceso podria ser requerido para la confirmación de la reserva del turno y los datos que deberá proveer el usuario-paciente serían: Nombre, Apellido, Fecha de Nacimiento, Email, Tel. y Contacto de Emergencia. 
 
 **2. Perfil de Profesional:**
-El perfil del profesional permitirá la creación y modificación de los horarios disponibles, acceso y posibilidad de edición del perfil de pacientes.
+El perfil del profesional permitirá la creación y modificación de los horarios disponibles, acceso y edición del perfil de pacientes y la generacion de diferentes reportes que permita analizar informacion relevante para los profesionales o la institucion.
 Proporcionará un menu con los horarios disponibles segun el nombre y apellido del profesional ingresado y la opcion de editar los horarios disponibles, lo cual se verá reflejado en los horarios mostrados a los pacientes.
 https://docs.google.com/spreadsheets/d/1ViWi6nykTvRP7BRpqg2O9yaLWeaobMv5CUa_-KxeCG4/edit#gid=406331082
-
-Opcion 1: Ingrese nombre y apellido
-
-Opcion 2: Ver horarios disponbibles
-
-Opcion 3: Editar horarios disponibles
-
-Opcion 0: Salir
-
