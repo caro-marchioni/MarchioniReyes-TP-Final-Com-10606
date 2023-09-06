@@ -64,7 +64,7 @@ Consecuentemente, deberá seleccionar un horario disponible, según el día eleg
 7. Volver al menú principal
 
 
-**Seguún la opción elegida** 
+**Según la opción elegida** 
 
 --> *Turno reservado: Lunes 17 hs.*
 
