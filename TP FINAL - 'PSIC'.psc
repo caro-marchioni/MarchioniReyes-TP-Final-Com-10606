@@ -1,5 +1,5 @@
 
-Algoritmo EjemploConSegun2
+Algoritmo reservaTurnos
 	
 	
 	Definir turnoLunesSosa1, turnoLunesSosa2, turnoLunesSosa3, turnoLunesSosa4, turnoLunesSosa5,turnoLunesSosa6, turnoLunesPerez, turnoLunesMoreno1, turnoLunesMoreno2, turnoLunesMoreno3, turnoLunesMoreno4 como Cadena
@@ -16,12 +16,12 @@ Algoritmo EjemploConSegun2
 	turnoLunesSosa3<-""
 	turnoLunesSosa4<-""
 	turnoLunesSosa5<-""	
-	turnoLunesSosa6<-""	
-	turnoMartesSosa1<-""
+	turnoLunesSosa6<-"Reservado"	
+	turnoMartesSosa1<-"Reservado"
 	turnoMartesSosa2<-""
 	turnoMartesSosa3<-""
 	turnoMartesSosa4<-""
-	turnoMartesSosa5<-""
+	turnoMartesSosa5<-"Reservado"
 	turnoMartesSosa6<-""
 	turnoMiercolesSosa1<-""
 	turnoMiercolesSosa2<-""
@@ -35,7 +35,7 @@ Algoritmo EjemploConSegun2
 	turnoJuevesSosa4<-""
 	turnoJuevesSosa5<-""
 	turnoJuevesSosa6<-""
-	turnoViernesSosa1<-""
+	turnoViernesSosa1<-"Reservado"
 	turnoViernesSosa2<-""
 	turnoViernesSosa3<-""
 	turnoViernesSosa4<-""
@@ -61,12 +61,12 @@ Algoritmo EjemploConSegun2
 	turnoJuevesPerez7<-""
 	turnoJuevesPerez8<-""
 	turnoViernesPerez1<-""
-	turnoViernesPerez2<-""
+	turnoViernesPerez2<-"Reservado"
 	turnoViernesPerez3<-""
 	turnoViernesPerez4<-""
 	turnoViernesPerez5<-""
-	turnoViernesPerez6<-""
-	turnoViernesPerez7<-""
+	turnoViernesPerez6<-"Reservado"
+	turnoViernesPerez7<-"Reservado"
 	turnoViernesPerez8<-""
 	turnoSabadoPerez1<-""
 	turnoSabadoPerez2<-""
@@ -94,11 +94,11 @@ Algoritmo EjemploConSegun2
 	tunoSabadoMoreno2<-""
 	tunoSabadoMoreno3<-""
 	tunoSabadoMoreno4<-""
-	tunoSabadoMoreno5<-""
+	tunoSabadoMoreno5<-"Reservado"
 	tunoSabadoMoreno6<-""
 	tunoSabadoMoreno7<-""
 	tunoSabadoMoreno8<-""
-	tunoSabadoMoreno9<-""
+	tunoSabadoMoreno9<-"Reservado"
 	
 	
 	// mostrar menu ReservaTurnos
@@ -106,15 +106,15 @@ Algoritmo EjemploConSegun2
 	Escribir "Bienvenido a nuestra agenda virtual!"
 	
 	Repetir
-		Escribir "Menú de Profesionales:"
+		Escribir " MenÃº de Profesionales:"
 		Escribir "   1. Lic. Gabriela Sosa"
 		Escribir "   2. Lic. Martin Perez"
 		Escribir "   3. Lic. Marcela Moreno"
 		Escribir "   4. Salir"
 		// ingresar una opcion
-		Escribir "Elija una opción (1-4): "
+		Escribir "Elija una opciÃ³n (1-4): "
 		Leer opSeleccionada
-		// procesar esa opción de Profesional Elegido
+		// procesar esa opciÃ³n de Profesional Elegido
 		
 		//Lic- Gabriela Sosa 
 		Segun  opSeleccionada Hacer
@@ -126,7 +126,7 @@ Algoritmo EjemploConSegun2
 				Mostrar  "3. Miercoles"
 				Mostrar  "4. Jueves"
 				Mostrar  "5. Viernes"
-				Mostrar  "6. Sábados"
+				Mostrar  "6. SÃ¡bados"
 				// ingresar una opcion de Dia
 				Escribir "Seleccione un dia disponible (1-6):"
 				Leer opDia
@@ -136,13 +136,13 @@ Algoritmo EjemploConSegun2
 					
 					1:
 						Limpiar Pantalla
-						Escribir "--- Día Lunes ---"
+						Escribir "--- DÃ­a Lunes ---"
 						Mostrar "1. 14 a 15 hs "
 						Mostrar "2. 15 a 16 hs "
 						Mostrar "3. 16 a 17 hs "
 						Mostrar "4. 17 a 18 hs "
 						Mostrar "5. 18 a 19 hs "
-						Mostrar "6. 19 a 20 hs"
+						Mostrar "6. 19 a 20 hs "
 						Mostrar "7. Volver al menu principal"
 						Leer opHorario
 						
@@ -154,14 +154,14 @@ Algoritmo EjemploConSegun2
 									Mostrar "Turno reservado: Lunes 14 hs."
 									
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoLunesSosa2 = "" Entonces
 									turnoLunesSosa2 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 15 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
@@ -169,7 +169,7 @@ Algoritmo EjemploConSegun2
 									turnoLunesSosa3 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 16 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -178,7 +178,7 @@ Algoritmo EjemploConSegun2
 									turnoLunesSosa4 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 17 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -187,7 +187,7 @@ Algoritmo EjemploConSegun2
 									turnoLunesSosa5 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 18 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -196,7 +196,7 @@ Algoritmo EjemploConSegun2
 									turnoLunesSosa6 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 19 hs"
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -208,7 +208,7 @@ Algoritmo EjemploConSegun2
 						
 					2:
 						Limpiar Pantalla
-						Escribir "--- Día Martes ---"
+						Escribir "--- DÃ­a Martes ---"
 						Mostrar "1. 14 a 15 hs "
 						Mostrar "2. 15 a 16 hs "
 						Mostrar "3. 16 a 17 hs "
@@ -225,14 +225,14 @@ Algoritmo EjemploConSegun2
 									turnoMartesSosa1<- "Reservado"
 									Mostrar "Turno reservado: Martes 14 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoMartesSosa2 = "" Entonces
 									turnoMartesSosa2 <- "Reservado"
 									Mostrar "Turno reservado: Martes 15 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
@@ -240,7 +240,7 @@ Algoritmo EjemploConSegun2
 									turnoMartesSosa3 <- "Reservado"
 									Mostrar "Turno reservado: Martes 16 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -249,7 +249,7 @@ Algoritmo EjemploConSegun2
 									turnoMartesSosa4 <- "Reservado"
 									Mostrar "Turno reservado: Martes 17 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -258,7 +258,7 @@ Algoritmo EjemploConSegun2
 									turnoMartesSosa5 <- "Reservado"
 									Mostrar "Turno reservado: Martes 18 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -268,7 +268,7 @@ Algoritmo EjemploConSegun2
 									Mostrar "Turno reservado: Martes 19 hs. "
 									
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							7: 
@@ -279,7 +279,7 @@ Algoritmo EjemploConSegun2
 						
 					3:
 						Limpiar Pantalla
-						Escribir  "--- Día Miércoles ---"
+						Escribir  "--- DÃ­a MiÃ©rcoles ---"
 						Mostrar "1. 14 a 15 hs "
 						Mostrar "2. 15 a 16 hs "
 						Mostrar "3. 16 a 17 hs "
@@ -293,51 +293,51 @@ Algoritmo EjemploConSegun2
 							1: 
 								si turnoMiercolesSosa1 = "" Entonces
 									turnoMiercolesSosa1<- "Reservado"
-									Mostrar "Turno reservado: Miércoles 14 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 14 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoMiercolesSosa2 = "" Entonces
 									turnoMiercolesSosa2 <- "Reservado"
-									Mostrar "Turno reservado: Miércoles 15 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 15 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
 								si turnoMiercolesSosa3= "" Entonces
 									turnoMiercolesSosa3 <- "Reservado"
-									Mostrar "Turno reservado: Miércoles 16 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 16 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							4: 
 								si turnoMiercolesSosa4 = "" Entonces
 									turnoMiercolesSosa4 <- "Reservado"
-									Mostrar "Turno reservado: Miércoles 17 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 17 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							5:
 								si turnoMiercolesSosa5 = "" Entonces
 									turnoMiercolesSosa5 <- "Reservado"
-									Mostrar "Turno reservado: Miércoles 18 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 18 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							6: 
 								si turnoMiercolesSosa6 = "" Entonces
 									turnoMiercolesSosa6 <- "Reservado"
-									Mostrar "Turno reservado: Miércoles 19 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 19 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							7: 
@@ -347,7 +347,7 @@ Algoritmo EjemploConSegun2
 						FinSegun
 						
 					4:
-						Escribir "--- Día Jueves ---"
+						Escribir "--- DÃ­a Jueves ---"
 						Mostrar "1. 14 a 15 hs "
 						Mostrar "2. 15 a 16 hs "
 						Mostrar "3. 16 a 17 hs "
@@ -363,14 +363,14 @@ Algoritmo EjemploConSegun2
 									turnoJuevesSosa1<- "Reservado"
 									Mostrar "Turno reservado: Jueves 14 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoJuevesSosa2 = "" Entonces
 									turnoJuevesSosa2 <- "Reservado"
 									Mostrar "Turno reservado: Jueves 15 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
@@ -378,7 +378,7 @@ Algoritmo EjemploConSegun2
 									turnoJuevesSosa3 <- "Reservado"
 									Mostrar "Turno reservado: Jueves 16 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -387,7 +387,7 @@ Algoritmo EjemploConSegun2
 									turnoJuevesSosa4 <- "Reservado"
 									Mostrar "Turno reservado: Jueves 17 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -396,7 +396,7 @@ Algoritmo EjemploConSegun2
 									turnoJuevesSosa5 <- "Reservado"
 									Mostrar "Turno reservado: Jueves 18 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -405,7 +405,7 @@ Algoritmo EjemploConSegun2
 									turnoJuevesSosa6 <- "Reservado"
 									Mostrar "Turno reservado: Jueves 19 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -416,7 +416,7 @@ Algoritmo EjemploConSegun2
 						FinSegun
 						
 					5: Limpiar Pantalla
-						Escribir "--- Día Viernes ---"
+						Escribir "--- DÃ­a Viernes ---"
 						Mostrar "1. 14 a 15 hs "
 						Mostrar "2. 15 a 16 hs "
 						Mostrar "3. 16 a 17 hs "
@@ -432,14 +432,14 @@ Algoritmo EjemploConSegun2
 									turnoMiercolesSosa1<- "Reservado"
 									Mostrar "Turno reservado: Viernes 14 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoViernesSosa2= "" Entonces
 									turnoMartes2 <- "Reservado"
 									Mostrar "Turno reservado: Viernes 15 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
@@ -447,7 +447,7 @@ Algoritmo EjemploConSegun2
 									turnoMartes3 <- "Reservado"
 									Mostrar "Turno reservado: Viernes 16 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -456,7 +456,7 @@ Algoritmo EjemploConSegun2
 									turnoViernesSosa4 <- "Reservado"
 									Mostrar "Turno reservado: Viernes 17 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -465,7 +465,7 @@ Algoritmo EjemploConSegun2
 									turnoViernesSosa5 <- "Reservado"
 									Mostrar "Turno reservado: Viernes 18 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -474,7 +474,7 @@ Algoritmo EjemploConSegun2
 									turnoViernesSosa6 <- "Reservado"
 									Mostrar "Turno reservado: Viernes 19 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -486,7 +486,7 @@ Algoritmo EjemploConSegun2
 						
 					6: 
 						Limpiar Pantalla
-						Escribir "--- Día Sábado ---"
+						Escribir "--- DÃ­a SÃ¡bado ---"
 						Escribir "No hay turnos disponibles este dia'
 						Mostrar "7. Volver al menu principal"
 						Leer opHorario
@@ -505,7 +505,7 @@ Algoritmo EjemploConSegun2
 				Mostrar  "3. Miercoles"
 				Mostrar  "4. Jueves"
 				Mostrar  "5. Viernes"
-				Mostrar  "6. Sábados"
+				Mostrar  "6. SÃ¡bados"
 				// ingresar una opcion de Dia
 				Escribir "Seleccione un dia disponible (1-6):"
 				Leer opDia
@@ -515,7 +515,7 @@ Algoritmo EjemploConSegun2
 					
 					1:
 						Limpiar Pantalla
-						Escribir "--- Día Lunes ---"
+						Escribir "--- DÃ­a Lunes ---"
 						Escribir "No hay turnos disponibles este dia'
 						Mostrar "1. Volver al menu principal"
 						Leer opHorario
@@ -526,7 +526,7 @@ Algoritmo EjemploConSegun2
 						
 					2:
 						Limpiar Pantalla
-						Escribir "--- Día Martes ---"
+						Escribir "--- DÃ­a Martes ---"
 						Escribir "No hay turnos disponibles este dia'
 						Mostrar "1. Volver al menu principal"
 						Leer opHorario
@@ -536,7 +536,7 @@ Algoritmo EjemploConSegun2
 						
 					3:
 						Limpiar Pantalla
-						Escribir  "--- Día Miércoles ---"
+						Escribir  "--- DÃ­a MiÃ©rcoles ---"
 						Mostrar "1. 11 a 12 hs "
 						Mostrar "2. 12 a 13 hs "
 						Mostrar "3. 13 a 14 hs "
@@ -553,68 +553,68 @@ Algoritmo EjemploConSegun2
 							1: 
 								si turnoMiercolesPerez1 = "" Entonces
 									turnoMiercolesPerez1<- "Reservado"
-									Mostrar "Turno reservado: Miércoles 11 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 11 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoMiercolesPerez2 = "" Entonces
 									turnoMiercolesPerez2 <- "Reservado"
-									Mostrar "Turno reservado: Miércoles 12 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 12 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
 								si turnoMiercolesPerez3= "" Entonces
 									turnoMiercolesPerez3 <- "Reservado"
-									Mostrar "Turno reservado: Miércoles 13 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 13 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							4: 
 								si turnoMiercolesPerez4 = "" Entonces
 									turnoMiercolesPerez4 <- "Reservado"
-									Mostrar "Turno reservado: Miércoles 14 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 14 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							5:
 								si turnoMiercolesPerez5 = "" Entonces
 									turnoMiercolesPerez5 <- "Reservado"
-									Mostrar "Turno reservado: Miércoles 15 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 15 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							6: 
 								si turnoMiercolesPerez6 = "" Entonces
 									turnoMiercolesPerez6 <- "Reservado"
-									Mostrar "Turno reservado: Miércoles 16 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 16 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							7: 
 								si turnoMiercolesPerez7 = "" Entonces
 									turnoMiercolesPerez7 <- "Reservado"
-									Mostrar "Turno reservado: Miércoles 17 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 17 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							8: 	
 								si turnoMiercolesPerez8 = "" Entonces
 									turnoMiercolesPerez8 <- "Reservado"
-									Mostrar "Turno reservado: Miércoles 18 hs."
+									Mostrar "Turno reservado: MiÃ©rcoles 18 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							9: si	opHorario = 9 Entonces
@@ -624,7 +624,7 @@ Algoritmo EjemploConSegun2
 						
 					4:
 						Limpiar Pantalla
-						Escribir "--- Día Jueves ---"
+						Escribir "--- DÃ­a Jueves ---"
 						Mostrar "1. 11 a 12 hs "
 						Mostrar "2. 12 a 13 hs "
 						Mostrar "3. 13 a 14 hs "
@@ -642,14 +642,14 @@ Algoritmo EjemploConSegun2
 									turnoJuevesPerez1<- "Reservado"
 									Mostrar "Turno reservado: Jueves 11 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoJuevesPerez2 = "" Entonces
 									turnoJuevesPerez2 <- "Reservado"
 									Mostrar "Turno reservado: Jueves 12 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
@@ -657,7 +657,7 @@ Algoritmo EjemploConSegun2
 									turnoJuevesPerez3 <- "Reservado"
 									Mostrar "Turno reservado: Jueves 13 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -666,7 +666,7 @@ Algoritmo EjemploConSegun2
 									turnoJuevesPerez4 <- "Reservado"
 									Mostrar "Turno reservado: Jueves 14 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -675,7 +675,7 @@ Algoritmo EjemploConSegun2
 									turnoJuevesPerez5 <- "Reservado"
 									Mostrar "Turno reservado: Jueves 15 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -684,7 +684,7 @@ Algoritmo EjemploConSegun2
 									turnoJuevesPerez6 <- "Reservado"
 									Mostrar "Turno reservado: Jueves 16 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -693,7 +693,7 @@ Algoritmo EjemploConSegun2
 									turnoJuevesPerez7 <- "Reservado"
 									Mostrar "Turno reservado: Jueves 17 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -702,7 +702,7 @@ Algoritmo EjemploConSegun2
 									turnoJuevesPerez8 <- "Reservado"
 									Mostrar "Turno reservado: Jueves 18 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							9: si	opHorario = 9 Entonces
@@ -713,7 +713,7 @@ Algoritmo EjemploConSegun2
 						
 						
 					5: Limpiar Pantalla
-						Escribir "--- Día Viernes ---"
+						Escribir "--- DÃ­a Viernes ---"
 						Mostrar "1. 11 a 12 hs "
 						Mostrar "2. 12 a 13 hs "
 						Mostrar "3. 13 a 14 hs "
@@ -732,14 +732,14 @@ Algoritmo EjemploConSegun2
 									turnoViernesPerez1<- "Reservado"
 									Mostrar "Turno reservado: Viernes 11 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoViernesPerez2= "" Entonces
 									turnoViernesPerez2 <- "Reservado"
 									Mostrar "Turno reservado: Viernes 12 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
@@ -747,7 +747,7 @@ Algoritmo EjemploConSegun2
 									turnoViernesPerez3 <- "Reservado"
 									Mostrar "Turno reservado: Viernes 13 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -756,7 +756,7 @@ Algoritmo EjemploConSegun2
 									turnoViernesPerez4 <- "Reservado"
 									Mostrar "Turno reservado: Viernes 14 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -765,7 +765,7 @@ Algoritmo EjemploConSegun2
 									turnoViernesPerez5 <- "Reservado"
 									Mostrar "Turno reservado: Viernes 15 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -774,7 +774,7 @@ Algoritmo EjemploConSegun2
 									turnoViernesPerez6 <- "Reservado"
 									Mostrar "Turno reservado: Viernes 16 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -783,7 +783,7 @@ Algoritmo EjemploConSegun2
 									turnoViernesPerez7 <- "Reservado"
 									Mostrar "Turno reservado: Viernes 17 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -792,7 +792,7 @@ Algoritmo EjemploConSegun2
 									turnoViernesPerez8 <- "Reservado"
 									Mostrar "Turno reservado: Viernes 18 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							9: si	opHorario = 9 Entonces
@@ -802,7 +802,7 @@ Algoritmo EjemploConSegun2
 						
 						
 					6:  Limpiar Pantalla
-						Escribir "--- Día Sábado ---"
+						Escribir "--- DÃ­a SÃ¡bado ---"
 						Mostrar "1. 11 a 12 hs "
 						Mostrar "2. 12 a 13 hs "
 						Mostrar "3. 13 a 14 hs "
@@ -819,69 +819,69 @@ Algoritmo EjemploConSegun2
 							1: 
 								si turnoSabadoPerez1 = "" Entonces
 									turnoSabadoPerez1<- "Reservado"
-									Mostrar "Turno reservado: Sábado 11 hs."
+									Mostrar "Turno reservado: SÃ¡bado 11 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoSabadoPerez2= "" Entonces
 									turnoSabadoPerez2 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 12 hs."
+									Mostrar "Turno reservado: SÃ¡bado 12 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
 								si turnoSabadoPerez3 = "" Entonces
 									turnoSabadoPerez3 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 13 hs."
+									Mostrar "Turno reservado: SÃ¡bado 13 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							4: 
 								si turnoSabadoPerez4 = "" Entonces
 									turnoSabadoPerez4 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 14 hs."
+									Mostrar "Turno reservado: SÃ¡bado 14 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							5:
 								si turnoSabadoPerez5= "" Entonces
 									turnoSabadoPerez5 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 15 hs."
+									Mostrar "Turno reservado: SÃ¡bado 15 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							6: 
 								si turnoSabadoPerez6 = "" Entonces
 									turnoSabadoPerez6 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 16 hs."
+									Mostrar "Turno reservado: SÃ¡bado 16 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							7: 
 								si turnoSabadoPerez7 = "" Entonces
 									turnoSabadoPerez7 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 17 hs."
+									Mostrar "Turno reservado: SÃ¡bado 17 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							8: 	
 								si turnoSabadoPerez8 = "" Entonces
 									turnoSabadoPerez8 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 18 hs."
+									Mostrar "Turno reservado: SÃ¡bado 18 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							9: si	opHorario = 9 Entonces
@@ -896,7 +896,7 @@ Algoritmo EjemploConSegun2
 				Mostrar  "1. Lunes"
 				Mostrar  "2. Martes"
 				Mostrar  "3. Miercoles"
-				Mostrar  "4. Sábados"
+				Mostrar  "4. SÃ¡bados"
 				// ingresar una opcion de Dia
 				Escribir "Seleccione un dia disponible (1-6):"
 				Leer opDia
@@ -906,7 +906,7 @@ Algoritmo EjemploConSegun2
 					
 					1:
 						Limpiar Pantalla
-						Escribir "--- Día Lunes ---"
+						Escribir "--- DÃ­a Lunes ---"
 						Mostrar "1. 09 a 10 hs "
 						Mostrar "2. 10 a 11 hs "
 						Mostrar "3. 11 a 12 hs "
@@ -922,14 +922,14 @@ Algoritmo EjemploConSegun2
 									Mostrar "Turno reservado: Lunes 09 hs."
 									Limpiar Pantalla
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoLunesMoreno2 = "" Entonces
 									turnoLunesMoreno2 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 10 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
@@ -937,7 +937,7 @@ Algoritmo EjemploConSegun2
 									turnoLunesMoreno3 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 11 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -946,7 +946,7 @@ Algoritmo EjemploConSegun2
 									turnoLunesMoreno4 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 12 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -958,7 +958,7 @@ Algoritmo EjemploConSegun2
 						
 					2: //Martes-Moreno
 						Limpiar Pantalla
-						Escribir "--- Día Martes ---"
+						Escribir "--- DÃ­a Martes ---"
 						Mostrar "1. 09 a 10 hs "
 						Mostrar "2. 10 a 11 hs "
 						Mostrar "3. 11 a 12 hs "
@@ -973,14 +973,14 @@ Algoritmo EjemploConSegun2
 									turnoLunesMoreno1<- "Reservado"
 									Mostrar "Turno reservado: Lunes 09 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoLunesMoreno2 = "" Entonces
 									turnoLunesMoreno2 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 10 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
@@ -988,7 +988,7 @@ Algoritmo EjemploConSegun2
 									turnoLunesMoreno3 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 11 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -997,7 +997,7 @@ Algoritmo EjemploConSegun2
 									turnoLunesMoreno4 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 12 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -1011,7 +1011,7 @@ Algoritmo EjemploConSegun2
 					3: //Miercoles
 						
 						Limpiar Pantalla
-						Escribir "--- Día Miércoles ---"
+						Escribir "--- DÃ­a MiÃ©rcoles ---"
 						Mostrar "1. 09 a 10 hs "
 						Mostrar "2. 10 a 11 hs "
 						Mostrar "3. 11 a 12 hs "
@@ -1026,14 +1026,14 @@ Algoritmo EjemploConSegun2
 									turnoLunesMoreno1<- "Reservado"
 									Mostrar "Turno reservado: Lunes 09 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoLunesMoreno2 = "" Entonces
 									turnoLunesMoreno2 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 10 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
@@ -1041,7 +1041,7 @@ Algoritmo EjemploConSegun2
 									turnoLunesMoreno3 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 11 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -1050,7 +1050,7 @@ Algoritmo EjemploConSegun2
 									turnoLunesMoreno4 <- "Reservado"
 									Mostrar "Turno reservado: Lunes 12 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -1062,7 +1062,7 @@ Algoritmo EjemploConSegun2
 						
 						//Sabados
 					4:	Limpiar Pantalla
-						Escribir "--- Día Sábados ---"
+						Escribir "--- DÃ­a SÃ¡bados ---"
 						Mostrar "1. 09 a 10 hs "
 						Mostrar "2. 10 a 11 hs "
 						Mostrar "3. 11 a 12 hs "
@@ -1080,33 +1080,33 @@ Algoritmo EjemploConSegun2
 							1: 
 								si turnoSabadoMoreno1 = "" Entonces
 									turnoSabadoMoreno1<- "Reservado"
-									Mostrar "Turno reservado: Sábado 09 hs."
+									Mostrar "Turno reservado: SÃ¡bado 09 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 								finSi 
 							2:
 								si turnoSabadoMoreno2 = "" Entonces
 									turnoSabadoMoreno2 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 10 hs."
+									Mostrar "Turno reservado: SÃ¡bado 10 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 							3:
 								si turnoSabadoMoreno3 = "" Entonces
 									turnoSabadoMoreno3 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 11 hs."
+									Mostrar "Turno reservado: SÃ¡bado 11 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							4: 
 								si turnoSabadoMoreno4= "" Entonces
 									turnoSabadoMoreno4 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 12 hs."
+									Mostrar "Turno reservado: SÃ¡bado 12 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -1114,9 +1114,9 @@ Algoritmo EjemploConSegun2
 							5:
 								Si turnoSabadoMoreno5 = "" Entonces
 									turnoSabadoMoreno5 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 15 hs."
+									Mostrar "Turno reservado: SÃ¡bado 15 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -1124,35 +1124,35 @@ Algoritmo EjemploConSegun2
 							6:
 								si turnoSabadoMoreno6 = "" Entonces
 									turnoSabadoMoreno6 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 16 hs."
+									Mostrar "Turno reservado: SÃ¡bado 16 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							7: si turnoSabadoMoreno7 = "" Entonces
 									turnoSabadoMoreno7 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 17 hs."
+									Mostrar "Turno reservado: SÃ¡bado 17 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							8: 
 								si turnoSabadoMoreno8 = "" Entonces
 									turnoSabadoMoreno8 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 18 hs."
+									Mostrar "Turno reservado: SÃ¡bado 18 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
 							9: 
 								si turnoSabadoMoreno9 = "" Entonces
 									turnoSabadoMoreno9 <- "Reservado"
-									Mostrar "Turno reservado: Sábado 19 hs."
+									Mostrar "Turno reservado: SÃ¡bado 19 hs."
 								Sino
-									Mostrar "El turno seleccionado ya está ocupado. Por favor, elija otro."
+									Mostrar "El turno seleccionado ya estÃ¡ ocupado. Por favor, elija otro."
 									
 								FinSi
 								
@@ -1163,16 +1163,17 @@ Algoritmo EjemploConSegun2
 								
 						FinSegun
 						
-						
+						Limpiar Pantalla
 				FinSegun
 				
 				
-					
+				
 		FinSegun
 		
-		Limpiar Pantalla
+		Escribir "                    "
 		Escribir "---Menu Principal---" 
-	
+		
+		
 	Hasta Que opSeleccionada = 4
 	
 FinAlgoritmo
