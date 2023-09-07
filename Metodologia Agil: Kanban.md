@@ -4,7 +4,7 @@ La metodología ágil seleccionada para realizar este Trabajo Practico Final fue
 
 *Definicion de Etapas*
 - La primer etapa fue el planteo del problema, donde se penso desde que ángulo se iniciaria la propuesta.
-- La segunda etapa fue la definicion de ls prueba de escritorio que permitiría definir los horarios de cada profesional (https://docs.google.com/spreadsheets/d/1ViWi6nykTvRP7BRpqg2O9yaLWeaobMv5CUa_-KxeCG4/edit#gid=406331082)
+- La segunda etapa fue la definicion de la prueba de escritorio que permitiría definir los horarios de cada profesional (https://docs.google.com/spreadsheets/d/1ViWi6nykTvRP7BRpqg2O9yaLWeaobMv5CUa_-KxeCG4/edit#gid=406331082)
 - La tercer etapa consistio en llevar a cabo la escritura del codigo con los criterios seleccionados para uno de los profesionales hasta corroborar que la lógica del bucle era la esperada.
 - La cuarta etapa fue integrar al bucle ya creado, los horarios de los profeisonales restantes y las pruebas correspondientes para asegurar la integridad del codigo.
 - La quinta y última etapa fue para definir detalles de documentacion y para coordinar las tareas que quedan para un futuro.
